@@ -1,0 +1,20 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    @include flexCenter();
+    height: 100vh;
+    background: $primary;
+    button {
+        background: white;
+        &:hover {
+            background: yellow;
+        }
+        &::after{
+            content: ' after text';
+        }
+    }
+}

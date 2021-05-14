@@ -1,0 +1,31 @@
+header, section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: gray;
+}
+
+header button, section button {
+  background: white;
+}
+
+header button:hover, section button:hover {
+  background: yellow;
+}
+
+header button::after, section button::after {
+  content: ' after text';
+}
+
+section {
+  background: purple;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+$primary : gray;
+$secondary : purple;
+
+@import './_header';
+
+section {
+    @extend header;
+    background: purple;
+    width: 100% - 200px;
+}
+
+/*
+1 . Auto-Prefix
+2 . Variables
+3 . Nesting
+4 . Separate files with partials
+5 . Functions
+6 . Function Parameter
+7 . Extend
+8 . Calculation
+*/
